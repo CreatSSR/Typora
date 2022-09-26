@@ -270,7 +270,7 @@ flag指定应该读取图像的方式，默认值为cv2.IMREAD_COLOR
 
 input ---> neural network (audio learning)---> output
 
-![image-20211127190542969](C:\Users\Sixu_Lu\AppData\Roaming\Typora\typora-user-images\image-20211127190542969.png)
+![image-20211127190542969](./assert/image-20211127190542969.png)
 
 (we call this function as ReLU function 它是一种激活函数)
 
@@ -278,13 +278,13 @@ just like you want to prediction the house prise
 
 we can use size as input and prise as output 
 
-![image-20211127190741259](C:\Users\Sixu_Lu\AppData\Roaming\Typora\typora-user-images\image-20211127190741259.png)
+![image-20211127190741259](./assert/image-20211127190741259.png)
 
 And we will get a bigger neural network when we consider more 
 
-![image-20211127191229741](C:\Users\Sixu_Lu\AppData\Roaming\Typora\typora-user-images\image-20211127191229741.png)
+![image-20211127191229741](./assert/image-20211127191229741.png)
 
-![image-20211127191359981](C:\Users\Sixu_Lu\AppData\Roaming\Typora\typora-user-images\image-20211127191359981.png)
+![image-20211127191359981](./assert/image-20211127191359981.png)
 
 In neural network we only need to give a 'x' as input  then the neural network will give you a 'y' .
 
@@ -292,13 +292,13 @@ In neural network we only need to give a 'x' as input  then the neural network w
 
 examples:
 
-![image-20211127192216851](C:\Users\Sixu_Lu\AppData\Roaming\Typora\typora-user-images\image-20211127192216851.png)
+![image-20211127192216851](./assert/image-20211127192216851.png)
 
 CNN RNN RNNs 
 
 ![image-20211127192439860](C:\Users\Sixu_Lu\AppData\Roaming\Typora\typora-user-images\image-20211127192439860.png)
 
-![image-20211127192554347](C:\Users\Sixu_Lu\AppData\Roaming\Typora\typora-user-images\image-20211127192554347.png)
+![image-20211127192554347](./assert/image-20211127192554347.png)
 
 #### **激活函数**
 
@@ -334,7 +334,7 @@ so we can use a matrix X<sub>n<sub>x</sub>  * m</sub> = [x<sup>(1)</sup>, x<sup
 
 we also use a matrix Y<sub>1 * m</sub> = [y<sup>(1)</sup>, y<sup>(2)</sup>, ······ , y<sup>(m)</sup>] as the output label
 
-![image-20211127201633263](C:\Users\Sixu_Lu\AppData\Roaming\Typora\typora-user-images\image-20211127201633263.png)
+![image-20211127201633263](./assert/image-20211127201633263.png)
 $$
 Y = sigmoid(W * X + b)
 $$
@@ -357,7 +357,7 @@ L(y', y) = -(y * log(y') + (1-y) * log(1-y') )
 $$
 how does is work?
 
-![image-20211127204743979](C:\Users\Sixu_Lu\AppData\Roaming\Typora\typora-user-images\image-20211127204743979.png)
+![image-20211127204743979](./assert/image-20211127204743979.png)
 
 but the Loss function is definated in a single train set
 
