@@ -296,7 +296,7 @@ examples:
 
 CNN RNN RNNs 
 
-![image-20211127192439860](C:\Users\Sixu_Lu\AppData\Roaming\Typora\typora-user-images\image-20211127192439860.png)
+![image-20211127192439860](./assert/image-20211127192439860.png)
 
 ![image-20211127192554347](./assert/image-20211127192554347.png)
 
